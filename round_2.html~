@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Очень страшная история одной женщины">
+    <meta name="author" content="Ivan Arzhanov">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Очень страшная история одной женщины</title>
+  </head>
+  <body>
+    <a href="images/round_2.gif" target="_blank">
+      <img src="images/round_2.gif" alt="Раунд 2!">
+    </a>
+    <p>Отлично, работаем дальше. Расчехляй яйцо намбер 2.</p>
+    <a href="story_2.html">    
+    <button type="button">Я расчехлиль&hellip;</button>
+  </body>
+</html>
+

@@ -1,0 +1,161 @@
+body {
+    background-image: url("images/background.jpg");
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+/*    font-family: "Euclid Fraktur", "Old English Text MT", fantasy, serif;*/
+    background-color: #6495ED;
+    color: white;
+    padding: 5px;
+}
+
+h2 {
+/*    font-family: "Euclid Fraktur", "Old English Text MT", fantasy, serif;*/
+/*    font-family: "Cursive";*/
+}
+
+.row {
+    display: flex;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    padding: 30px;
+}
+
+details {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    text-align: center;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+p {
+    color: red;
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+    text-shadow: 2px 2px orange;
+    padding: 5px;
+}
+
+.story {
+    color: white;
+    font-size: 150%;
+    text-shadow: 3px 1px black;
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+button {
+    background: url("images/button_background.jpg");
+    border: none;
+    background-size: cover;
+    height: 10%;
+    width: 20%;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    left: 40%;
+    text-align: center;
+    font-size: 200%;
+    color: red;
+    text-shadow: 1px 1px white;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+th, td {
+    padding: 5px 30px 5px 10px;
+    border-spacing: 0px;
+    font-size: 90%;
+    margin: 0px;
+}
+
+th, td {
+    text-align: left;
+    background-color: #e0e9f0;
+    border-top: 1px solid #f1f8fe;
+    border-bottom: 1px solid #cbd2d8;
+    border-right: 1px solid #cbd2d8;
+}
+
+tr.head th {
+    color: #fff;
+    background-color: #90b4d6;
+    border-bottom: 2px solid #647ca0;
+    border-right: 1px solid #749abe;
+    border-top: 1px solid #90b4d6;
+    text-align: center;
+    text-shadow: -1px 1px #666;
+    letter-spacing: 0.15em;
+}
+
+td {
+    text-shadow: 1px 1px 1px #fff;    
+}
+
+tr.even td, tr.even th {
+    background-color: #e8eff5;
+}
+
+tr.head th:first-child {
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5 px;
+    border-top-left-radius: 5px;
+}
+
+tr.head th:last-child {
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5 px;
+    border-top-right-radius: 5px;
+}
+
+q {
+    font-style: italic;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+}

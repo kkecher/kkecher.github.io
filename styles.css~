@@ -1,0 +1,146 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+/*    font-family: "Euclid Fraktur", "Old English Text MT", fantasy, serif;*/
+    background-color: #6495ED;
+    color: white;
+    padding: 5px;
+}
+
+h2 {
+/*    font-family: "Euclid Fraktur", "Old English Text MT", fantasy, serif;*/
+/*    font-family: "Cursive";*/
+}
+
+blockquote, figcaption {
+    text-align: right;
+    font-style: italic;
+    color: #7B7D7D
+}
+
+q {
+    font-style: italic;
+    color: #7B7D7D
+}
+
+.row {
+    display: flex;
+}
+
+img {
+    width: 300px;
+    margint: 0px 0px 10px 10px;
+    padding: 10px;
+}
+
+img.float {
+    float: right;
+    width: 300px;
+    margint: 0px 0px 10px 10px;
+    padding: 10px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.incomplete {
+    background-color: red
+}
+
+.success {
+    background-color: green
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.strong {
+    font-weight: bold
+}
+
+.italic {
+    font-style: italic
+}
+
+table {
+    border-spacing: 0px;
+}
+
+th, td {
+    padding: 5px 30px 5px 10px;
+    border-spacing: 0px;
+    font-size: 90%;
+    margin: 0px;
+}
+
+th, td {
+    text-align: left;
+    background-color: #e0e9f0;
+    border-top: 1px solid #f1f8fe;
+    border-bottom: 1px solid #cbd2d8;
+    border-right: 1px solid #cbd2d8;
+}
+
+tr.head th {
+    color: #fff;
+    background-color: #90b4d6;
+    border-bottom: 2px solid #647ca0;
+    border-right: 1px solid #749abe;
+    border-top: 1px solid #90b4d6;
+    text-align: center;
+    text-shadow: -1px 1px #666;
+    letter-spacing: 0.15em;
+}
+
+td {
+    text-shadow: 1px 1px 1px #fff;    
+}
+
+tr.even td, tr.even th {
+    background-color: #e8eff5;
+}
+
+tr.head th:first-child {
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5 px;
+    border-top-left-radius: 5px;
+}
+
+tr.head th:last-child {
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5 px;
+    border-top-right-radius: 5px;
